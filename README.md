@@ -31,19 +31,20 @@ Set these variables in a `.env` file in the root directory of your project.
 Main directory structure of the project:
 ```
 /auxiliary
-  /cert
+  	/cert
+	/config
 	/controllers
 	/helpers
-  /models
-  /routes
-  /source
+	/models
+	/routes
+	/source
 /main
-  /config
+  	/config
 	/controllers
 	/helpers
-  /models
-  /routes
-  /source
+  	/models
+  	/routes
+  	/source
 /node_modules
 /routes
 /source
