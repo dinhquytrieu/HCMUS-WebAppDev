@@ -7,7 +7,7 @@
     "auxiliary": "nodemon auxiliary/source/server.js auxiliary/source/app.js",
     "m-watch": "node-sass --watch main/source/resources/scss/app.scss main/source/public/css/app.css",
     "a-watch": "node-sass --watch auxiliary/source/resources/scss/app.scss auxiliary/source/public/css/app.css",
-    "start": "concurrently \"npm run main\" \"npm run auxiliary\" ",
+    "start": "concurrently \"npm run m-watch\" \"npm run a-watch\"\"npm run main\" \"npm run auxiliary\" ",
     "watch": "concurrently \"npm run m-watch\" \"npm run a-watch\""
   },
   "repository": {
